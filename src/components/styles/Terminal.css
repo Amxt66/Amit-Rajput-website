@@ -1,0 +1,111 @@
+.terminal-window {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    font-family: "Fira Code", monospace;
+    width: 100%;
+    border: 1px solid #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.terminal-window:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+.terminal-header {
+    background-color: #2d2d2d;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    position: relative;
+}
+
+.terminal-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.terminal-btn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.terminal-btn.red {
+    background-color: #ff5f56;
+}
+
+.terminal-btn.yellow {
+    background-color: #ffbd2e;
+}
+
+.terminal-btn.green {
+    background-color: #27c93f;
+}
+
+.terminal-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #999;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+.terminal-body {
+    padding: 20px;
+    color: #d4d4d4;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.terminal-command {
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: monospace;
+}
+
+.prompt {
+    color: #27c93f;
+    margin-right: 10px;
+}
+
+.terminal-content {
+    margin-bottom: 10px;
+    color: #a9b7c6;
+}
+
+.terminal-cursor {
+    display: inline-block;
+    width: 10px;
+    height: 18px;
+    background-color: #a9b7c6;
+    animation: blink 1s infinite;
+    vertical-align: middle;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .terminal-window {
+        width: 100%;
+    }
+
+    .terminal-title {
+        display: none;
+    }
+}

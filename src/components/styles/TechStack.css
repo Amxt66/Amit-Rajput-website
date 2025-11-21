@@ -1,0 +1,29 @@
+.techstack {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.techstack h2 {
+    font-size: 4rem;
+    color: var(--accentColor);
+    margin-bottom: 2rem;
+    text-align: center;
+    z-index: 10;
+    position: absolute;
+    top: 5%;
+}
+
+.tech-canvas {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
