@@ -68,16 +68,20 @@ const SocialIcons = () => {
   return (
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
-        <span>
-          <a href={config.contact.github} target="_blank">
-            <FaGithub />
-          </a>
-        </span>
-        <span>
-          <a href={config.contact.linkedin} target="_blank">
-            <FaLinkedinIn />
-          </a>
-        </span>
+        {config.contact.github && (
+          <span>
+            <a href={config.contact.github} target="_blank">
+              <FaGithub />
+            </a>
+          </span>
+        )}
+        {config.contact.linkedin && (
+          <span>
+            <a href={config.contact.linkedin} target="_blank">
+              <FaLinkedinIn />
+            </a>
+          </span>
+        )}
         {config.contact.twitter && (
           <span>
             <a href={config.contact.twitter} target="_blank">
