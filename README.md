@@ -1,5 +1,7 @@
 # My Portfolio Wesbite - Overview 🚀
 
+![Amit Kumar](./public/profile-pic.png)
+
 This repository contains the source code for my personal portfolio website, showcasing my projects and skills as a Software & AI Engineer.
 Feel free to explore!
 
