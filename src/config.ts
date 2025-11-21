@@ -1,14 +1,14 @@
 export const config = {
     developer: {
-        name: "Vikas",
-        fullName: "Vikas Babu",
+        name: "Amit",
+        fullName: "Amit Kumar",
         title: "Software & Machine Learning Engineer",
         description: "Analytical Software & AI Engineer skilled in C++, Python, SQL, and modern ML stacks. I build full-stack platforms, computer vision pipelines, and applied AI solutions grounded in strong DSA, DBMS, and system design fundamentals."
     },
     social: {
         github: "Vikas76-bit",
-        email: "b24bs1409@iitj.ac.in",
-        location: "Guwahati, Assam, India"
+        email: "amitk31624@gmail.com",
+        location: "Nagla Beech Kasganj, Uttar Pradesh, India"
     },
     about: {
         title: "About Me",
@@ -16,7 +16,7 @@ export const config = {
     },
     experiences: [
         {
-            position: "B.S. Applied AI & Data Science",
+            position: " Applied AI & Data Science",
             company: "IIT Jodhpur",
             period: "11/2024 - Present",
             location: "Jodhpur, Rajasthan",
@@ -87,12 +87,12 @@ export const config = {
         }
     ],
     contact: {
-        email: "b24bs1409@iitj.ac.in",
-        phone: "+91-7409235930",
-        github: "https://github.com/Vikas76-bit",
-        linkedin: "https://www.linkedin.com/in/vikas-babu76",
+        email: "amitk31624@gmail.com",
+        phone: "+91-7078062380",
+        github: null,
+        linkedin: null,
         twitter: null,
-        instagram: null,
+        instagram: "https://www.instagram.com/its_.amit.rajput/?__pwa=1",
         resume: "/resume.pdf"
     },
     skills: {

@@ -10,7 +10,7 @@ const Terminal = ({ children }: PropsWithChildren) => {
                     <span className="terminal-btn yellow"></span>
                     <span className="terminal-btn green"></span>
                 </div>
-                <div className="terminal-title">vikas@ai-node: ~/about</div>
+                <div className="terminal-title">amit@ai-node: ~/about</div>
             </div>
             <div className="terminal-body">
                 <div className="terminal-command">

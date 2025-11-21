@@ -68,7 +68,7 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          VB
+          AK
         </a>
         <a
           href={`mailto:${config.contact.email}`}
